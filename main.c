@@ -13,13 +13,15 @@ int main()
 {
     su_display();
     printf("\n\n");
-    printf("\n\t\t\t   MENU");
+    printf("\n\t\t\t **MENU**");
     printf("\n\t\t\t1.9x9 Sudoku");
     printf("\n\t\t\t2.4x4 Sudoku");
     printf("\n");
     int ch;
     printf("\n\t\t    Enter Choice :");
     scanf("%d",&ch);
+    system("cls");
+    su_display();
     printf("\n");
     if (ch==1)
     {
